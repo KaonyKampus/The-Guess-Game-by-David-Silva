@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+
+
+
+body {
+    background-color:black;
+}
+
+.title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: blueviolet;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+.instructions {
+    margin-top: 20px;
+    color: rgb(112, 95, 128);
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+.par-container {
+
+    display: flex;
+    justify-content: center;
+}
+
+.instructions2{
+    width: 500px;
+    color: rgb(255, 255, 255);
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.container1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.subCont {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aqua;
+    width: 500px;
+    padding: 30px;
+}
+
+#guessField{
+    border-radius: 8px;
+}
+
+.guessSubmit{
+    font-family: "Kode Mono", monospace;
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+
+.resultParas {
+    display: flex;
+    justify-content: center;
+}
+
+.subCont2 {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    width: 800px;
+    padding: 20px;
+}
+
+
+.lastResult{
+    padding: 10px;
+    border: 10px;
+
+}
